@@ -1,0 +1,119 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+nav.white .brand-logo {
+  text-indent: -9999px;
+  display: inline-block;
+  width: 80px;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: url("../images/logo.jpg") no-repeat center center;
+  background-size: cover;
+}
+nav .nav-wrapper .right li {
+  position: relative;
+}
+nav .nav-wrapper .right li #dropdown2 {
+  position: absolute;
+  top: 54px !important;
+  left: 15px !important;
+  width: 100%;
+}
+nav .nav-wrapper .right li a.btn {
+  text-transform: capitalize;
+  font-size: 26px;
+  text-shadow: 0 0 2px #000;
+  background: linear-gradient(to right, deepskyblue 50%, #BF5BCD 100%);
+  background: -webkit-gradient(to right, deepskyblue 50%, #BF5BCD 100%);
+}
+nav .nav-wrapper .nav-mobile a.btn {
+  background: linear-gradient(to right, deepskyblue 50%, #BF5BCD 100%);
+  background: -webkit-gradient(to right, deepskyblue 50%, #BF5BCD 100%);
+}
+#index-banner .section .container h1.header {
+  font-size: 80px;
+  color: #833451 !important;
+  text-shadow: 1px 1px 0px #fff, -1px -1px 0 #000;
+}
+#index-banner .section .container .row h5 {
+  font-size: 30px;
+  color: #36110f;
+  text-shadow: 1px 1px 0px #fff, -1px -1px 0 #000;
+}
+#index-banner .section .container .row #download-button {
+  background: linear-gradient(to right, #BF5BCD 20%, deepskyblue 100%);
+  background: -webkit-gradient(to right, #BF5BCD 20%, deepskyblue 100%);
+  font-size: 30px;
+  color: greenyellow;
+}
+.container .section .row .icon-block h2 {
+  font-size: 40px;
+}
+.container .section .row .icon-block h5 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.container .section .row .icon-block p {
+  font-size: 14px;
+}
+.valign-wrapper .section .row h5 {
+  color: #8c2c2c;
+  font-size: 50px;
+  text-shadow: 1px 1px 0px #fff, -1px -1px 0px #000;
+}
+.valign-wrapper .section .row form textarea {
+  color: #000;
+  padding-top: 10px;
+  font-size: 14px;
+  color: red;
+}
+.alvin-second .section .row h3 {
+  font-size: 40px;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+p {
+  line-height: 2rem;
+}
+.button-collapse {
+  color: #26a69a;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+footer.page-footer {
+  margin: 0;
+}
